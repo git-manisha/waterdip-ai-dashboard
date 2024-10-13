@@ -4,6 +4,10 @@
     align-items: center;
     width: 100vw;
     justify-content: space-between;
+    overflow: hidden;
+}
+.over{
+    overflow: hidden;
 }
 .col{
     display: flex;
