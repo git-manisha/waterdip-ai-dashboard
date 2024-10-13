@@ -44,18 +44,15 @@ Make sure you have the following installed on your machine:
 ### Installation
 
 1. *Clone the repository:*
-
+ 
    ```bash
-  git-manisha/waterdip-ai-dashboard.git
-   cd waterdip-ai-dashboard npm run dev
+    git clone https://github.com/git-manisha/waterdip-ai-dashboard.git
+     cd waterdip-ai-dashboard npm run dev
 
 
    npm install
 
    npm run dev
-
-
-
 
 /src
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
