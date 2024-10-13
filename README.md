@@ -46,7 +46,7 @@ Make sure you have the following installed on your machine:
 1. *Clone the repository:*
 
    ```bash
-  git@github.com:git-manisha/waterdip-ai-dashboard.git
+  git-manisha/waterdip-ai-dashboard.git
    cd waterdip-ai-dashboard npm run dev
 
 
