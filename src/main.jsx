@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import { Chart, registerables } from 'chart.js';
+import 'chartjs-adapter-date-fns';
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+Chart.register(...registerables);
+
+ReactDOM.render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>,
+  document.getElementById('root')
+);
